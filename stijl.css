@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 822px;
+    height: 812px;
+    margin: 0 auto;
+    border: 5px solid darkgray;
+    border-radius: 4px;
+    background-color: #e5e5e5;
+}
+
+article {
+    width: 260px;
+    height: 90px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    float: left;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1)
+}
+
+h1 {
+    color: #4078c0;
+}
+
+article img {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+.pokenumber {
+    position: absolute;
+    right: 2px;
+    top: 1px;
+}
+
+.grass {
+    position: absolute;
+    background-color: mediumseagreen;
+    border-radius: 5px;
+    border-width: 5px;
+    margin-left: 4px;
+    top: 55px;
+    padding: 4px;
+    color: white;
+}
+
+.poison {
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border-width: 5px;
+    top: 55px;
+    left: 55px;
+    padding: 4px;
+    color: white;
+}
+
+.fire {
+    position: absolute;
+    background-color: orangered;
+    border-radius: 5px;
+    border-width: 5px;
+    margin-left: 4px;
+    top: 55px;
+    padding: 4px;
+    color: white;
+}
+
+.flying {
+    position: absolute;
+    background-color: violet;
+    border-radius: 5px;
+    border-width: 5px;
+    margin-left: 4px;
+    top: 55px;
+    left: 45px;
+    padding: 4px;
+    color: white;
+}
