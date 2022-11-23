@@ -1,0 +1,36 @@
+header {
+    border-width: 5px;
+    background-color: #283e4a;
+    color: white;
+    padding: 5px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-image: url("assets/bgimage.png");
+}
+
+
+nav {
+    width: 294px;
+    background-color: white;
+    position: relative;
+    margin-left: 280px;
+    margin-right: auto;
+
+}
+
+a {
+    display: block;
+}
+
+#content {
+    margin-left: 20px;
+    margin-right: auto;
+    width: 980px;
+    background-color: white;
+    float: right;
+}
+
